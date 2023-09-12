@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    *{
+      font-family: 'Hanken Grotesk', sans-serif;
+      
+    }
+    .container{
+      width: 1800px;
+      float:inline-start;
+      margin-left: 300px;
+    }
+    .attribution, p { font-size: 18px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .Great{ 
+      padding: 30px;
+      background: radial-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%)); 
+      height: 400px;
+      width: 15%;
+      border-radius: 10%;
+      text-align: center;
+      color: hsl(0, 0%, 100%);
+      float: left;
+      
+     }
+    h1{
+      background-color: hsla(256, 72%, 46%, 1);
+      border-radius: 100%;
+      width: 100px;
+      height: 100px;
+      padding: 50px;
+      margin-left: 30px;
+      color: hsl(0, 0%, 100%);
+    }
+    h2{
+      text-align: center;
+      color: hsl(0, 0%, 100%);
+    }
+    .Summary{
+      width: 40%;
+      margin: 30px;
+      padding: 30px;
+      height: 400px;
+      border-radius: 10%;
+      background-color: hsl(221, 100%, 96%);
+    
+    }
+    .Reaction{
+      color:  hsl(0, 100%, 67%);
+      background-color:hsl(0, 100%, 97%) ;
+      border-radius: 10px;
+      padding: 5px; 
+    }
+    .Memory{
+      color:  hsl(39, 100%, 56%);
+      background-color:hsl(40, 93%, 88%) ;
+      border-radius: 10px;
+      padding: 5px; 
+    }
+    .Verbal{
+      color:  hsl(166, 100%, 37%);
+      background-color:hsl(165, 100%, 92%) ;
+      border-radius: 10px;
+      padding: 5px; 
+    }
+    .Visual{
+      color:  hsl(234, 85%, 45%);
+      background-color:hsl(234, 100%, 86%) ;
+      border-radius: 10px;
+      padding: 5px; 
+    }
+
+
+    strong{
+      color: black;
+    }
+    button{
+      color:hsl(0, 0%, 100%) ;
+      border-radius: 30px;
+      padding: 15px;
+      width: 180px;
+      background: radial-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%)); 
+    }
+
+  </style>
+</head>
+<body>
+<div class="container attribution">
+  <div class="Great attribution">
+    <p>Your Result</p> 
+   <h1>76<p>of 100</p></h1>
+     
+    <h2>Great</h2>
+    <p> You scored higher than 65% of the people who have taken these tests.</p>
+  </div>
+  
+  <div class="Summary attribution">
+    <h2 style="color: black;">Summary</h2>
+  <div class="Reaction">
+    
+    <p> <img src="./assets/images/icon-reaction.svg" alt="">Reaction <strong>80 / 100</strong></p> 
+    
+  </div>
+  <div class="Memory">
+    <p> <img src="./assets/images/icon-memory.svg" alt="">Memory <strong>92 / 100</strong></p> 
+  </div>
+  <div class="Verbal">
+    <p> <img src="./assets/images/icon-verbal.svg" alt="">Verbal <strong>61 / 100</strong></p> 
+  </div>
+  <div  class="Visual">
+    <p> <img src="./assets/images/icon-visual.svg" alt="">Visual <strong>72 / 100</strong></p> 
+  </div>
+  <button type="submit">
+    Continue
+  </button>
+  </div>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">AmizadayHernández</a>.
+  </div>
+</body>
+</html>
